@@ -7,8 +7,10 @@
 </template>
 
 <script>
-import 'tui-image-editor/dist/tui-image-editor.css';
-// import './About.scss';
+// import 'tui-image-editor/dist/tui-image-editor.css';
+import './About.scss';
+import 'tui-color-picker/dist/tui-color-picker.css';
+
 import {ImageEditor} from '@toast-ui/vue-image-editor';
 import icon_a from "tui-image-editor/dist/svg/icon-a.svg";
 import icon_b from "tui-image-editor/dist/svg/icon-b.svg";
@@ -97,8 +99,9 @@ export default {
                 cssMaxHeight: document.documentElement.clientHeight,
                 
                 selectionStyle: {
-                  cornerSize: 50,
-                  rotatingPointOffset: 70
+                  cornerSize: 10,
+                  cornerStyle:"circle",
+                  rotatingPointOffset: 40
                 },
 
                 includeUI : {
