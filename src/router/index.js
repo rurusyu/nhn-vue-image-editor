@@ -17,6 +17,24 @@ const routes = [
       import(/* webpackChunkName: "chart" */ "../views/Chart.vue")
   },
   {
+    path: "/amChart",
+    name: "AmChart",
+    component: () =>
+      import(/* webpackChunkName: "am-chart" */ "../views/AmChart.vue")
+  },
+  {
+    path: "/grid",
+    name: "Grid",
+    component: () =>
+      import(/* webpackChunkName: "am-chart" */ "../views/Grid.vue")
+  },
+  {
+    path: "/text",
+    name: "TextEditor",
+    component: () =>
+      import(/* webpackChunkName: "text-editor" */ "../views/TextEditor.vue")
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting
