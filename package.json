@@ -11,7 +11,7 @@
   "dependencies": {
     "@amcharts/amcharts4": "^4.9.6",
     "@toast-ui/vue-image-editor": "^1.2.0",
-    "apexcharts": "^3.16.1",
+    "apexcharts": "^3.24.0",
     "core-js": "^3.6.4",
     "file-saver": "^2.0.2",
     "tiptap": "^1.26.6",
